@@ -32,3 +32,7 @@ foodElement.innerHTML = favfoods;
 let newfood = 'Croissant';
 favfoods.push(newfood) ;
 foodElement.innerHTML += `<br>${favfoods}`;
+favfoods.shift();
+foodElement.innerHTML += `<br>${favfoods}`;
+favfoods.pop();
+foodElement.innerHTML += `<br>${favfoods}`;
